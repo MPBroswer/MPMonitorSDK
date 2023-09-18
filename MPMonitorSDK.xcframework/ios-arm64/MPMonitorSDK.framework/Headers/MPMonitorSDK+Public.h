@@ -1,5 +1,5 @@
 //
-//  MPNetMonitorSDK+Public.h
+//  MPMonitorSDK+Public.h
 //  MPMonitor
 //
 //  Created by MPMonitor on 2023/6/5.
@@ -14,7 +14,7 @@ MPDynamicProperties;
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MPNetMonitorSDK : NSObject
+@interface MPMonitorSDK : NSObject
 
 /// 所属业务线
 @property (atomic, copy, readonly) NSString *pLine;
@@ -42,7 +42,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 返回之前所初始化好的单例
 /// Warning: 调用这个方法之前，必须先调用 startWithConfigOptions: 这个方法
-+ (MPNetMonitorSDK * _Nullable)sharedInstance;
++ (MPMonitorSDK * _Nullable)sharedInstance;
 
 /// 禁用 SDK。调用后，SDK 将不采集事件，不发送网络请求
 + (void)disableSDK;

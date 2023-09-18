@@ -12,17 +12,21 @@
 		<data>
 		ozGKkd0689t4xDsmLp707rXEdeA=
 		</data>
-		<key>Headers/MPNetMonitorSDK+Public.h</key>
+		<key>Headers/MPMonitorSDK+Public.h</key>
 		<data>
-		tCYqrEisbPNQpbnGFCNbAgb6fjc=
+		nCgZtFUSCjkGGwcG3DOoIRHXXK0=
 		</data>
-		<key>Headers/MPNetMonitorSDK.h</key>
+		<key>Headers/MPMonitorSDK.h</key>
 		<data>
-		OtrHPNXmryyl53IA3f3eDVHaKmY=
+		na31Cp8qUeZhCSsmA7d2nET8RfM=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		bFnPpJhf6A0y0xQklSGrThVElsE=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		UONL4GNZMiAUpQ0ixpUtsHscUs0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -41,18 +45,25 @@
 			KwsJAlpvsNfm/xv1Q2H4SPGr7ohwAo0K/p8LCnxil8k=
 			</data>
 		</dict>
-		<key>Headers/MPNetMonitorSDK+Public.h</key>
+		<key>Headers/MPMonitorSDK+Public.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uzHImtMVnXy2eR/dOzkFn14jpBtA7wmwZHSNqYFlQQ=
+			W3H2ITePDGkevaeU1l4QPXf9Sw3SZin846Y2q82COvs=
 			</data>
 		</dict>
-		<key>Headers/MPNetMonitorSDK.h</key>
+		<key>Headers/MPMonitorSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cCAJnPx0ucn3Hb0efXpkkX6AUwfOoZ6l4cbJTe2DUaQ=
+			R/d5Hnf+Py7d9j2HOKWTY/Zt987neRJmNp6wnnQQ8x8=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y/6g3dDgZg/SCbARROTVFCcxJzbxChJMMTpHbXOpqNI=
 			</data>
 		</dict>
 	</dict>

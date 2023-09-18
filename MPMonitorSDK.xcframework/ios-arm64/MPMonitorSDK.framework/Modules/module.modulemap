@@ -1,0 +1,6 @@
+framework module MPMonitorSDK {
+  umbrella header "MPMonitorSDK.h"
+
+  export *
+  module * { export * }
+}
