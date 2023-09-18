@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MPMonitorSDK_Tests' do
+  pod 'MPMonitorSDK', :path => '../'
+  
+  
+end
