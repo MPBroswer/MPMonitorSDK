@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPMonitorSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MPMonitorSDK.'
+  s.version          = '0.0.3'
+  s.summary          = 'MPMonitorSDK Cocoapods集成库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,15 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/MPBroswer/MPMonitorSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  # 支持的平台及版本
+  s.platform     = :ios, "11.0"
+  # iOS支持的pod最低版本 / iOS对应的版本
+  s.ios.deployment_target = "11.0"
 
-  s.source_files = 'MPMonitorSDK/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MPMonitorSDK' => ['MPMonitorSDK/Assets/*.png']
-  # }
+  # 使用了第三方静态库
+  # s.ios.vendored_library = ''
+  #s.ios.vendored_libraries = ''
+  s.ios.vendored_frameworks = 'MPMonitorSDK.xcframework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # 是否使用ARC，如果指定具体文件，则具体的问题使用ARC
+  s.requires_arc = true
+
+  s.swift_versions = ['5']
 end
